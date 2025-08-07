@@ -1,0 +1,457 @@
+[
+  {
+    "id": "1:2",
+    "name": "Dashboard",
+    "text": "Dashboard"
+  },
+  {
+    "id": "1:3",
+    "name": "Site Filter",
+    "text": "Site Filter"
+  },
+  {
+    "id": "1:4",
+    "name": "Recent Access History",
+    "text": "Recent Access History"
+  },
+  {
+    "id": "1:5",
+    "name": "Today's Attendance",
+    "text": "Today's Attendance"
+  },
+  {
+    "id": "1:6",
+    "name": "Info Cards",
+    "text": "Info Cards"
+  },
+  {
+    "id": "1:7",
+    "name": "Bar Chart",
+    "text": "Bar Chart"
+  },
+  {
+    "id": "1:8",
+    "name": "Filters",
+    "text": "Filters"
+  },
+  {
+    "id": "1:10",
+    "name": "Analytics Section",
+    "text": "Analytics Section"
+  },
+  {
+    "id": "1:11",
+    "name": "Access Analytics",
+    "text": "Access Analytics"
+  },
+  {
+    "id": "1:12",
+    "name": "Door Analytics",
+    "text": "Door Analytics"
+  },
+  {
+    "id": "1:15",
+    "name": "Access Type",
+    "text": "Access Type"
+  },
+  {
+    "id": "1:17",
+    "name": "Entry",
+    "text": "Entry"
+  },
+  {
+    "id": "1:19",
+    "name": "Exit",
+    "text": "Exit"
+  },
+  {
+    "id": "1:20",
+    "name": "Entry | Exit",
+    "text": "Entry | Exit"
+  },
+  {
+    "id": "1:22",
+    "name": "Time Interval Selector",
+    "text": "Time Interval Selector"
+  },
+  {
+    "id": "1:24",
+    "name": "Daily",
+    "text": "Daily"
+  },
+  {
+    "id": "1:26",
+    "name": "Weekly",
+    "text": "Weekly"
+  },
+  {
+    "id": "1:28",
+    "name": "Monthly",
+    "text": "Monthly"
+  },
+  {
+    "id": "1:30",
+    "name": "All Doors",
+    "text": "All Doors"
+  },
+  {
+    "id": "1:32",
+    "name": "Search",
+    "text": "Search"
+  },
+  {
+    "id": "1:34",
+    "name": "Doors",
+    "text": "Doors"
+  },
+  {
+    "id": "1:36",
+    "name": "Graph",
+    "text": "Graph"
+  },
+  {
+    "id": "1:37",
+    "name": "Graph",
+    "text": "Graph"
+  },
+  {
+    "id": "1:38",
+    "name": "X-Axis: Time",
+    "text": "X-Axis: Time"
+  },
+  {
+    "id": "1:39",
+    "name": "X-Axis: Door",
+    "text": "X-Axis: Door"
+  },
+  {
+    "id": "1:42",
+    "name": "Y-Axis: Number of Accesses",
+    "text": "Y-Axis: Number of Accesses"
+  },
+  {
+    "id": "1:43",
+    "name": "Y-Axis: Number of Accesses",
+    "text": "Y-Axis: Number of Accesses"
+  },
+  {
+    "id": "1:46",
+    "name": "See All",
+    "text": "See All"
+  },
+  {
+    "id": "1:47",
+    "name": "See All",
+    "text": "See All"
+  },
+  {
+    "id": "1:48",
+    "name": "Pagination",
+    "text": "Pagination"
+  },
+  {
+    "id": "1:49",
+    "name": "Table Header",
+    "text": "Table Header"
+  },
+  {
+    "id": "1:50",
+    "name": "Table Header",
+    "text": "Table Header"
+  },
+  {
+    "id": "1:56",
+    "name": "Name",
+    "text": "Name"
+  },
+  {
+    "id": "1:57",
+    "name": "Shift",
+    "text": "Shift"
+  },
+  {
+    "id": "1:58",
+    "name": "Date",
+    "text": "Date"
+  },
+  {
+    "id": "1:59",
+    "name": "On Time",
+    "text": "On Time"
+  },
+  {
+    "id": "1:64",
+    "name": "Access Type",
+    "text": "Access Type"
+  },
+  {
+    "id": "1:65",
+    "name": "Late",
+    "text": "Late"
+  },
+  {
+    "id": "1:66",
+    "name": "Event Type",
+    "text": "Event Type"
+  },
+  {
+    "id": "1:67",
+    "name": "Inside",
+    "text": "Inside"
+  },
+  {
+    "id": "1:68",
+    "name": "Direction",
+    "text": "Direction"
+  },
+  {
+    "id": "1:69",
+    "name": "Outside",
+    "text": "Outside"
+  },
+  {
+    "id": "1:70",
+    "name": "Location",
+    "text": "Location"
+  },
+  {
+    "id": "1:71",
+    "name": "Not In",
+    "text": "Not In"
+  },
+  {
+    "id": "1:80",
+    "name": "Items per page selector",
+    "text": "Items per page selector"
+  },
+  {
+    "id": "1:81",
+    "name": "Page Navigation",
+    "text": "Page Navigation"
+  },
+  {
+    "id": "1:86",
+    "name": "Total Users",
+    "text": "Total Users"
+  },
+  {
+    "id": "1:87",
+    "name": "Access Points",
+    "text": "Access Points"
+  },
+  {
+    "id": "1:88",
+    "name": "Today’s Visitors",
+    "text": "Today’s Visitors"
+  },
+  {
+    "id": "1:89",
+    "name": "Total Shifts",
+    "text": "Total Shifts"
+  },
+  {
+    "id": "1:90",
+    "name": "Total No. of Users",
+    "text": "Total No. of Users"
+  },
+  {
+    "id": "1:91",
+    "name": "Total No. of Access Points",
+    "text": "Total No. of Access Points"
+  },
+  {
+    "id": "1:92",
+    "name": "Total No. of Today’s Visitors",
+    "text": "Total No. of Today’s Visitors"
+  },
+  {
+    "id": "1:93",
+    "name": "Total No. of Shifts",
+    "text": "Total No. of Shifts"
+  },
+  {
+    "id": "1:94",
+    "name": "No. of Active Users",
+    "text": "No. of Active Users"
+  },
+  {
+    "id": "1:95",
+    "name": "No. of Active Access Points",
+    "text": "No. of Active Access Points"
+  },
+  {
+    "id": "1:96",
+    "name": "Number of Active Visitors",
+    "text": "Number of Active Visitors"
+  },
+  {
+    "id": "1:97",
+    "name": "No. of Active Shifts",
+    "text": "No. of Active Shifts"
+  },
+  {
+    "id": "1:106",
+    "name": "User Profile",
+    "text": "User Profile"
+  },
+  {
+    "id": "1:108",
+    "name": "Geo",
+    "text": "Geo"
+  },
+  {
+    "id": "1:109",
+    "name": "Finger Print",
+    "text": "Finger Print"
+  },
+  {
+    "id": "1:110",
+    "name": "Card",
+    "text": "Card"
+  },
+  {
+    "id": "1:111",
+    "name": "Mobile",
+    "text": "Mobile"
+  },
+  {
+    "id": "1:112",
+    "name": "Web Remote",
+    "text": "Web Remote"
+  },
+  {
+    "id": "1:113",
+    "name": "App Remote",
+    "text": "App Remote"
+  },
+  {
+    "id": "1:114",
+    "name": "Face",
+    "text": "Face"
+  },
+  {
+    "id": "1:115",
+    "name": "QR",
+    "text": "QR"
+  },
+  {
+    "id": "1:116",
+    "name": "General Access",
+    "text": "General Access"
+  },
+  {
+    "id": "1:117",
+    "name": "Watch Wallet",
+    "text": "Watch Wallet"
+  },
+  {
+    "id": "1:118",
+    "name": "Mobile Wallet",
+    "text": "Mobile Wallet"
+  },
+  {
+    "id": "1:120",
+    "name": "Google Map (Geo Location)",
+    "text": "Google Map (Geo Location)"
+  },
+  {
+    "id": "1:121",
+    "name": "Readers",
+    "text": "Readers"
+  },
+  {
+    "id": "1:126",
+    "name": "User List",
+    "text": "User List"
+  },
+  {
+    "id": "1:128",
+    "name": "Access Points",
+    "text": "Access Points"
+  },
+  {
+    "id": "1:129",
+    "name": "Visitor Management",
+    "text": "Visitor Management"
+  },
+  {
+    "id": "1:131",
+    "name": "Shift Management",
+    "text": "Shift Management"
+  },
+  {
+    "id": "1:132",
+    "name": "Access History",
+    "text": "Access History"
+  },
+  {
+    "id": "1:134",
+    "name": "Attendance Report",
+    "text": "Attendance Report"
+  },
+  {
+    "id": "1:137",
+    "name": "Google Map",
+    "text": "Google Map"
+  },
+  {
+    "id": "1:152",
+    "name": "Readers Detail",
+    "text": "Readers Detail"
+  },
+  {
+    "id": "1:158",
+    "name": "Legends",
+    "text": "Legends"
+  },
+  {
+    "id": "1:159",
+    "name": "Legends",
+    "text": "Legends"
+  },
+  {
+    "id": "1:163",
+    "name": "Select Date",
+    "text": "Select Date"
+  },
+  {
+    "id": "1:165",
+    "name": "Calendar",
+    "text": "Calendar"
+  },
+  {
+    "id": "1:169",
+    "name": "Hamburger Menu",
+    "text": "Hamburger Menu"
+  },
+  {
+    "id": "1:170",
+    "name": "Organization Switcher",
+    "text": "Organization Switcher"
+  },
+  {
+    "id": "1:171",
+    "name": "Download",
+    "text": "Download"
+  },
+  {
+    "id": "1:172",
+    "name": "Spintly",
+    "text": "Spintly"
+  },
+  {
+    "id": "1:173",
+    "name": "Profile",
+    "text": "Profile"
+  },
+  {
+    "id": "1:177",
+    "name": "Back",
+    "text": "Back"
+  },
+  {
+    "id": "1:179",
+    "name": "Settings",
+    "text": "Settings"
+  }
+]
