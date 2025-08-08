@@ -1,4 +1,4 @@
-"Figma2VectorDB" have all the code and "documentation" have Screenshot  Workflow and detail about the output generated.
+"Figma2VectorDB" have all the code and "documentation" have Screenshot of OUTPUT ,WOrkflow and detail about the output generated.
 
 in cmmd write :-
 python -m venv venv
