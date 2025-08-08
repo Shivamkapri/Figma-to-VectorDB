@@ -1,0 +1,156 @@
+ OUTPUT FILES
+
+| Step                      | File                       | Format   | Purpose                                           |
+| ------------------------- | -------------------------- | -------- | ------------------------------------------------- |
+| Extract text nodes        | `data/text_nodes.json`     | JSON     | Stores all extracted text elements from Figma     |
+| Embed text as vectors     | `data/embedded_nodes.json` | JSON     | Each text with its corresponding embedding vector |
+| Build FAISS vector index  | `data/faiss.index`         | Binary   | FAISS-compatible index of all vector embeddings   |
+| Store metadata for lookup | `data/faiss_meta.pkl`      | Pickle   | Stores text + ID metadata for FAISS index         |
+| Search results            | Printed on console         | Terminal | Semantic match results from FAISS search          |
+
+---
+
+ FILE: `data/text_nodes.json`
+
+ 📌 Created By
+python scripts/extract_nodes.py
+```
+
+ 📄 Example Content:
+
+[
+  {
+    "id": "1:2",
+    "name": "Title",
+    "text": "Dashboard"
+  },
+  {
+    "id": "1:3",
+    "name": "Label",
+    "text": "Analytics Section"
+  }
+]
+
+
+✅ Purpose:
+
+This contains all extracted **textual labels** (`characters`) from Figma’s visual nodes. This is the **input** for embedding.
+
+
+
+ 🧠 FILE: `data/embedded_nodes.json`
+
+ 📌 Created By:
+
+
+python scripts/embed_data.py
+
+
+ 📄 Example Content:
+
+
+[
+  {
+    "id": "1:2",
+    "name": "Title",
+    "text": "Dashboard",
+    "embedding": [0.021, -0.188, ..., 0.132]
+  },
+  {
+    "id": "1:3",
+    "name": "Label",
+    "text": "Analytics Section",
+    "embedding": [0.125, 0.033, ..., 0.097]
+  }
+]
+```
+
+ ✅ Purpose:
+
+This file adds a new key: `embedding`, which is a 384-dimensional vector (from Sentence-Transformer model). This will be used to build the FAISS index.
+
+---
+
+ 🧱 FILE: `data/faiss.index`
+
+ 📌 Created By:
+
+
+python scripts/build_faiss_index.py
+
+
+ 📄 Content:
+
+Binary file containing **raw vectors** optimized for **fast nearest neighbor search**.
+
+You can’t open it directly, but FAISS can read and use it for matching.
+
+ ✅ Purpose:
+
+Core **vector search engine** used to match semantic meaning. This is the searchable index.
+
+---
+
+ 📦 FILE: `data/faiss_meta.pkl`
+
+ 📌 Created By:
+
+
+python scripts/build_faiss_index.py
+
+
+ 📄 Content:
+
+A Python pickle file that stores metadata associated with each vector in FAISS.
+
+Example (after loading with `pickle.load()`):
+
+```python
+{
+  'ids': ['1:2', '1:3'],
+  'texts': ['Dashboard', 'Analytics Section']
+}
+```
+
+### ✅ Purpose:
+
+Used to **map FAISS index results back** to human-readable text and node IDs.
+
+---
+
+## 🔍 Search Output (Printed Only)
+
+### 📌 Created By:
+
+```bash
+python scripts/build_faiss_index.py query "Dashboard"
+```
+
+### 📄 Example Output:
+
+```
+Search results for: “Dashboard”
+• 1:2 [0.0000] → Dashboard
+• 1:10 [0.9516] → Analytics Section
+• 1:106 [1.2363] → User Profile
+```
+
+### ✅ Purpose:
+
+Shows the top matches from the index for the query `"Dashboard"`, ranked by **semantic similarity**.
+
+---
+
+## 🗂 OUTPUT FILE LOCATIONS (Final Directory)
+
+```
+figma-vector-db/
+├── data/
+│   ├── figma_data.json         # ← Original input (Figma JSON)
+│   ├── text_nodes.json         # ← Extracted text labels
+│   ├── embedded_nodes.json     # ← Text + embeddings
+│   ├── faiss.index             # ← Vector search index
+│   └── faiss_meta.pkl          # ← Metadata for each vector
+```
+
+
